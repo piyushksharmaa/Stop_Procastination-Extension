@@ -1,0 +1,13 @@
+{
+  "name": "Stop Procastination",
+  "version": "1.0.0",
+  "description": "Blocking sites which Distracts you",
+  "manifest_version": 3,
+  "author": "Piyush Kumar Sharma",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["app.js"]
+    }
+  ]
+}
